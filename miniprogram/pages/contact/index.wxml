@@ -1,2 +1,11 @@
 <!--pages/contact/index.wxml-->
-qq
+
+<view class="developer-userinfo">
+	<van-image width="200rpx" height="6.4rem" fit="cover" lazy-load src="{{ userInfo.touxiang }}" />
+	<view class="nickname-email">
+		<view>{{ userInfo.nickname }}</view>
+		<view>{{ userInfo.email }}</view>
+	</view>
+</view>
+
+<button class="contact-dever" type="primary" open-type="contact">联系开发人员 (然)</button>

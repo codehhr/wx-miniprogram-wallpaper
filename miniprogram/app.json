@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/mobile/index",
-    "pages/pc/index",
+    "pages/index/index",
     "pages/news/index",
     "pages/categories/index",
     "pages/category/index",
@@ -21,14 +20,8 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/mobile/index",
-        "text": "手机",
-        "iconPath": "./img/home.png",
-        "selectedIconPath": "./img/homed.png"
-      },
-      {
-        "pagePath": "pages/pc/index",
-        "text": "电脑",
+        "pagePath": "pages/index/index",
+        "text": "首页",
         "iconPath": "./img/home.png",
         "selectedIconPath": "./img/homed.png"
       },
@@ -48,7 +41,7 @@
         "pagePath": "pages/contact/index",
         "text": "反馈",
         "iconPath": "./img/contact.png",
-        "selectedIconPath": "./img/contact.png"
+        "selectedIconPath": "./img/contactd.png"
       }
     ]
   }

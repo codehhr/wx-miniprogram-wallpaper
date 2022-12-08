@@ -1,7 +1,7 @@
 {
 	"setting": {
 		"compileHotReLoad": false,
-		"urlCheck": false
+		"urlCheck": true
 	},
 	"condition": {
 		"miniprogram": {
@@ -77,13 +77,6 @@
 				{
 					"name": "",
 					"pathName": "pages/contact/index",
-					"query": "",
-					"launchMode": "default",
-					"scene": null
-				},
-				{
-					"name": "",
-					"pathName": "pages/mobile/index",
 					"query": "",
 					"launchMode": "default",
 					"scene": null

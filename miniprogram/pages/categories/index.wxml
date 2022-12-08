@@ -9,7 +9,7 @@
 <!-- category list start -->
 <view class="category-list">
 	<view class="category-item" wx:for="{{ categoryList }}" wx:for-item="category" wx:key="old_id" bindtap="navigateToCategoryPage" data-old_id="{{ category.old_id }}">
-		<van-image width="360rpx" height="6rem" fit="cover" src="{{ category.icon }}" />
+		<van-image width="360rpx" height="6rem" lazy-load fit="cover" src="{{ category.icon }}" />
 	</view>
 </view>
 <!-- category list end -->

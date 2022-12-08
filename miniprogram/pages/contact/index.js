@@ -4,15 +4,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgList: [],
+    userInfo: {},
   },
-  getM() {
+
+  getDeveloperInfo() {
     wx.request({
-      url:
-        "http://service.picasso.adesk.com/v1/vertical/vertical?slip=0&limit=10&adult=false&order=hot",
+      url: "https://v.api.aa1.cn/api/qqjson/index.php?qq=1871973389",
       success: (res) => {
         this.setData({
-          imgList: res.data.res.vertical,
+          userInfo: res.data,
         });
       },
     });
@@ -27,7 +27,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-    this.getM();
+    this.getDeveloperInfo();
   },
 
   /**
