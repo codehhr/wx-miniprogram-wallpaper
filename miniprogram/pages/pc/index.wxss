@@ -1,0 +1,18 @@
+.img-list {
+  margin: 182rpx 0 0;
+}
+
+.search-empty {
+  margin: 320rpx 0 0;
+}
+
+.search-section {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 8;
+}
+
+.van-tabs__line {
+  margin: 8rpx 0;
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/mobile/index",
+    "pages/pc/index",
+    "pages/news/index",
+    "pages/categories/index",
+    "pages/category/index",
+    "pages/contact/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "免费壁纸",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#7d7e80",
+    "selectedColor": "#47a8f2",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/mobile/index",
+        "text": "手机",
+        "iconPath": "./img/home.png",
+        "selectedIconPath": "./img/homed.png"
+      },
+      {
+        "pagePath": "pages/pc/index",
+        "text": "电脑",
+        "iconPath": "./img/home.png",
+        "selectedIconPath": "./img/homed.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "最新",
+        "iconPath": "./img/new.png",
+        "selectedIconPath": "./img/newd.png"
+      },
+      {
+        "pagePath": "pages/categories/index",
+        "text": "分类",
+        "iconPath": "./img/categories.png",
+        "selectedIconPath": "./img/categoriesd.png"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "text": "反馈",
+        "iconPath": "./img/contact.png",
+        "selectedIconPath": "./img/contact.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+<!--pages/category/index.wxml-->
+
+<!-- loading start -->
+<view class="{{ isShowloading ? 'page-loading' : 'hide-loading' }}">
+	<van-loading color="#8a8a8a" size="160px" />
+</view>
+<!-- loading end -->
+
+<!-- imgList start -->
+<view wx:if="{{ imgList.length > 0 }}">
+	<view class="img-list">
+		<!-- img item start -->
+		<view class="img-item" wx:for="{{ imgList }}" wx:key="id" wx:for-item="img">
+			<view>
+				<van-image width="720rpx" height="14rem" fit="cover" lazy-load src="{{ img.url }}" bindtap="previewImgHandle" data-url="{{ img.url }}" />
+			</view>
+			<view class="img-category-tag" wx:if="{{ img.tag }}">
+				<!-- <view class="img-category">{{ img.category }}</view> -->
+				<view class="img-tag">{{ img.tag }}</view>
+			</view>
+		</view>
+		<!-- img item end -->
+	</view>
+</view>
+<!-- imgList end -->

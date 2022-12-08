@@ -1,0 +1,15 @@
+<!--pages/categories/index.wxml-->
+
+<!-- loading start -->
+<view class="{{ isShowloading ? 'page-loading' : 'hide-loading' }}">
+	<van-loading color="#8a8a8a" size="160px" />
+</view>
+<!-- loading end -->
+
+<!-- category list start -->
+<view class="category-list">
+	<view class="category-item" wx:for="{{ categoryList }}" wx:for-item="category" wx:key="old_id" bindtap="navigateToCategoryPage" data-old_id="{{ category.old_id }}">
+		<van-image width="360rpx" height="6rem" fit="cover" src="{{ category.icon }}" />
+	</view>
+</view>
+<!-- category list end -->

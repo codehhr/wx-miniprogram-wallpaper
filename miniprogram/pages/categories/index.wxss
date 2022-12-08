@@ -1,0 +1,12 @@
+/* pages/categories/index.wxss */
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category-item {
+  margin: 8rpx auto;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
