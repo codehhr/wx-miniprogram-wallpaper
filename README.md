@@ -1,4 +1,4 @@
-# Wallpaper
+# Free Wallpaper Everyday
 
 ## 预览
 
