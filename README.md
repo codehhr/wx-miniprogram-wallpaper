@@ -2,4 +2,4 @@
 
 ## 预览
 
-![Free Wallpaper Everyday]("https://codehhr.github.io/wx-miniprogram-wallpaper/view.jpg")
+![Free Wallpaper Everyday](https://codehhr.github.io/wx-miniprogram-wallpaper/view.jpg)
