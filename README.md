@@ -2,4 +2,4 @@
 
 # 预览
 
-[Free Wallpaper Everyday]("./view.jpg")
+![Free Wallpaper Everyday]("./view.jpg")
